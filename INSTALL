@@ -1,0 +1,9 @@
+Building KashhCoin
+
+See doc/readme-qt.rst for instructions on building KashhCoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of KashhCoin.
+
+See doc/build-*.txt for instructions on building KashhCoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of KashhCoin.
