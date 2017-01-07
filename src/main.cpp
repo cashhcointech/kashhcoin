@@ -2574,7 +2574,7 @@ bool LoadBlockIndex(bool fAllowNew)
             return false;
 
         // Genesis block
-        const char* pszTimestamp = "September 9, 2016, Arjun Mishra builds kashhcoin.";
+        const char* pszTimestamp = "7th Jan Fringe Point builds kashhcoin.";
         CTransaction txNew;
         txNew.nTime = nChainStartTime;
         txNew.vin.resize(1);
@@ -2589,7 +2589,7 @@ bool LoadBlockIndex(bool fAllowNew)
         block.nVersion = 1;
         block.nTime    = 1473343982;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = 13789569;
+        block.nNonce   = 13221542;
 
         //// debug print
         block.print();
@@ -2598,7 +2598,7 @@ bool LoadBlockIndex(bool fAllowNew)
         printf("block.nTime = %u \n", block.nTime);
         printf("block.nNonce = %u \n", block.nNonce);
 
-        assert(block.hashMerkleRoot == uint256("0x87e29635b98e4050063d18d72d2ec6fa8e1e1dd799f84f6c4c54649d9262dcf4"));
+        assert(block.hashMerkleRoot == uint256("0x6d61a71cc3ae55daccc226a7a974f5240190a2db87837fe95b5c1934c0b6c985"));
 		assert(block.GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet));
 
         // Start new block file
