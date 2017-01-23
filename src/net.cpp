@@ -1152,7 +1152,10 @@ void MapPort()
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
     {"kashhcoin.com", "107.180.71.154"},
-    {"NULL", "NULL"},
+    {"kashhcoin2.com", "132.148.87.33"},
+    {"kashhcoin3.com", "132.148.79.97"},
+    {"kashhcoin4.com", "132.148.79.99"},
+    {"kashhcoin5.com", "148.72.247.78"}
 };
 
 void ThreadDNSAddressSeed(void* parg)
